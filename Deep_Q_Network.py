@@ -25,7 +25,7 @@ LEARNING_RATE = 5e-4        # Learning rate for Adam optimizer
 TRAIN_AFTER_EPISODES = 10   # Just collect episodes for these many episodes
 TRAIN_EPOCHS = 25           # Train for these many epochs every time
 BUFSIZE = 10000             # Replay buffer size
-EPISODES = 1000              # Total number of episodes to learn over
+EPISODES = 3000              # Total number of episodes to learn over
 TEST_EPISODES = 10          # Test episodes
 
 # create environment
