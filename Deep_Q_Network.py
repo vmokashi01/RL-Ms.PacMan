@@ -15,7 +15,7 @@ t = utils.helper.TorchHelper()
 # constants
 DEVICE = t.device
 OBS_N = 128                 # State space size
-ACT_N = 4                   # Action space size
+ACT_N = 9                   # Action space size
 EPSILON = 1.0               # Starting epsilon
 STEPS_MAX = 10000           # Gradually reduce epsilon over these many steps
 EPSILON_END = 0.1           # At the end, keep epsilon at this value
@@ -25,7 +25,7 @@ LEARNING_RATE = 5e-4        # Learning rate for Adam optimizer
 TRAIN_AFTER_EPISODES = 10   # Just collect episodes for these many episodes
 TRAIN_EPOCHS = 25           # Train for these many epochs every time
 BUFSIZE = 10000             # Replay buffer size
-EPISODES = 300              # Total number of episodes to learn over
+EPISODES = 1000              # Total number of episodes to learn over
 TEST_EPISODES = 10          # Test episodes
 
 # create environment
